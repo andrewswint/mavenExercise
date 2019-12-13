@@ -16,6 +16,8 @@ public class mainMethod {
 ////        space is blank but not empty
 //        System.out.println("is isBlank different?: " + StringUtils.isBlank(userInput));
 
+        System.out.println("replace: " + StringUtils.replace(userInput, "-", ";"));
+
     }
 
 }
