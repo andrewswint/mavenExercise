@@ -17,6 +17,7 @@ public class mainMethod {
 //        System.out.println("is isBlank different?: " + StringUtils.isBlank(userInput));
 
         System.out.println("replace: " + StringUtils.replace(userInput, "-", ";"));
+        System.out.println("rotate: " + StringUtils.reverse(userInput));
 
     }
 
