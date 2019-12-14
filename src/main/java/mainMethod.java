@@ -1,3 +1,4 @@
+import com.google.common.base.CaseFormat;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Scanner;
@@ -16,8 +17,10 @@ public class mainMethod {
 ////        space is blank but not empty
 //        System.out.println("is isBlank different?: " + StringUtils.isBlank(userInput));
 
-        System.out.println("replace: " + StringUtils.replace(userInput, "-", ";"));
-        System.out.println("rotate: " + StringUtils.reverse(userInput));
+//        System.out.println("replace: " + StringUtils.replace(userInput, "-", ";"));
+//        System.out.println("rotate: " + StringUtils.reverse(userInput));
+
+        System.out.println(CaseFormat.UPPER_UNDERSCORE.to(CaseFormat.LOWER_CAMEL, userInput));
 
     }
 
